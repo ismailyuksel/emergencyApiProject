@@ -125,8 +125,8 @@ public class FacilityController {
 	                }
 	            }
 	        }
-	        logger.info("successCount : {} errorCount : {}" , successCount, errorCount);
 		}
+		logger.info("successCount : {} errorCount : {}" , successCount, errorCount);
 	}
 
 	private List<LocationModel> getLocationList() {
